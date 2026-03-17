@@ -146,5 +146,5 @@ echo "$id added in blacklist/disabled zone $var"
 >$SEND_MAIL # truncate attachment file for further process.
 	fi
 systemctl stop iptables
-
+echo "test passed"
 fi
